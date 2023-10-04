@@ -209,3 +209,34 @@
   font-size: 15px;
   font-family: 'Ubuntu', sans-serif;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%; 
+  }
+  .container.expanded{
+    width:100%;
+  }
+
+  .titulo h1{
+    font-size: 1.2em;
+  }
+
+  .weather-image img{
+    width: 128px;
+  }
+  .text{
+    font-size: 15px;
+  }
+  .footer{
+    margin-top: 3.2rem;
+  }
+  .top-bar input{
+    padding-left: 15px;
+    width: 240px;
+  }
+  .search-icon{
+    width: 58px;
+  }
+
+}
